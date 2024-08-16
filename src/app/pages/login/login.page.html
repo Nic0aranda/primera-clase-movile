@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button (click)="irPagina()" color="success">Ir a Agregar</ion-button>
+  <ion-button [routerLink]="['/home']" color="warning">ir al home</ion-button>
+</ion-content>
+<!--[routerLink]="['/nombrePagina']" como redirigir paginas-->
